@@ -1,0 +1,8 @@
+Four Concepts
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Composition
+- Aggregation
+
