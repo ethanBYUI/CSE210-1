@@ -5,27 +5,25 @@ class Program
     static void Main(string[] args)
     {
         Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1, 101);
+        int Number = randomGenerator.Next(1, 101);
 
         int guess = 0;
-
-        // We could also use a do-while loop here...
-        while (guess != magicNumber)
+        while (guess != Number)
         {
-            Console.Write("What is your guess? ");
+            Console.Write("What is the number? ");
             guess = int.Parse(Console.ReadLine());
 
-            if (magicNumber > guess)
+            if (Number > guess)
             {
                 Console.WriteLine("Higher");
             }
-            else if (magicNumber < guess)
+            else if (Number < guess)
             {
                 Console.WriteLine("Lower");
             }
             else
             {
-                Console.WriteLine("You guessed it!");
+                Console.WriteLine("Yes");
             }
     }
 }
