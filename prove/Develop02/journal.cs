@@ -1,13 +1,12 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Text.Json;
-
 
 class Journal
 {
+    // attributes
     public List<Entry> Entries { get; private set; } = new List<Entry>();
 
+    // behaviors
     public void AddEntry(Entry entry)
     {
         Entries.Add(entry);

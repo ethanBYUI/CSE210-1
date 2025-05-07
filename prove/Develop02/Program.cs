@@ -5,20 +5,22 @@ using System.Text.Json;
 
 class Program
 {
+    // attributes
     static List<string> Prompts = new List<string>
     {
-        "Who was the most interesting person I interacted with today?",
-        "What was the best part of my day?",
-        "How did I see the hand of the Lord in my life today?",
-        "What was the strongest emotion I felt today?",
-        "If I had one thing I could do over today, what would it be?",
-        "What did I learn about myself today?",
-        "What challenged me today?"
+        "Any new theories about the JFK assassination?",
+        "What was the best thing you ate today?",
+        "How did you fight against femenism today?",
+        "What was the strongest emotion I felt today? Was it wrath?",
+        "Who has made the list today?",
+        "Any new challengers arisen today?",
+        "Who challenged me today?"
     };
 
     static Journal journal = new Journal();
     static Random random = new Random();
 
+    // behaviors
     static void Main(string[] args)
     {
         bool running = true;
