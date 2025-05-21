@@ -2,7 +2,7 @@ using System;
 
 class Entry
 {
-    public string Date { get; set; }  //{ get; set; } gets the value and then sets a value. According to stackoverflow logic can be placed here
+    private string Date { get; set; }  //{ get; set; } gets the value and then sets a value. According to stackoverflow logic can be placed here
     public string Prompt { get; set; } // we use public so that the other files can see it
     public string Response { get; set; }
 
